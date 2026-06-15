@@ -1,0 +1,66 @@
+sources:
+  - KitPvP:
+    input: KitPvP.jar
+    output: KitPvP-obfuscated.jar
+
+libraries: []
+
+remap:
+  enabled: true
+  classes: true
+  methods: true
+  fields: true
+  localVariables: true
+  obfuscateEnums: true
+  classPrefix: ""
+  methodPrefix: ""
+  fieldPrefix: ""
+  localVariableName: ""
+  aggressiveOverloading: false
+
+sourceStrip:
+  enabled: true
+  lineNumbers: REMOVE
+
+kotlinMetadata:
+  enabled: false
+
+crasher:
+  enabled: false
+
+indirection:
+  enabled: false
+
+stringObfuscation:
+  enabled: true
+
+arithmetic:
+  enabled: true
+  repeat: 2
+
+flowObfuscation:
+  enabled: true
+  severity: 5
+  mergeMethods: NONE
+  arithmetic: false
+  noverify: false
+  java8: false
+
+methodParameter:
+  enabled: true
+
+optimisation:
+  enabled: true
+  mutableEnumValues: false
+
+numberObfuscation:
+  enabled: true
+
+ignoreClassPathNotFound: true
+useJavaClassloader: false
+shuffleClasses: true
+shuffleMethods: true
+shuffleFields: true
+resetLineProgress: true
+printProgress: true
+watermark: false
