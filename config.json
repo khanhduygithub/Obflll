@@ -1,0 +1,45 @@
+{
+  "sources": [
+    {
+      "input": "KitPvP.jar",
+      "output": "KitPvP-obfuscated.jar"
+    }
+  ],
+  "libraries": [],
+  "mappingFile": null,
+  "remap": {
+    "enabled": true,
+    "classPrefix": ""
+  },
+  "stringObfuscation": {
+    "enabled": true
+  },
+  "flowObfuscation": {
+    "enabled": true
+  },
+  "numberObfuscation": {
+    "enabled": true
+  },
+  "arithmetic": {
+    "enabled": true
+  },
+  "indirection": {
+    "enabled": false
+  },
+  "crasher": {
+    "enabled": false
+  },
+  "sourceStrip": {
+    "enabled": true
+  },
+  "kotlinMetadata": {
+    "enabled": false
+  },
+  "methodParameter": {
+    "enabled": true
+  },
+  "optimisation": {
+    "enabled": true
+  },
+  "expiryDate": null
+}
